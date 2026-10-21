@@ -13,9 +13,24 @@ public class Student {
 
     }
 
+     public Long getId() {
+         return id;
+     }
 
-    public int age() {
-        return age;
+     public String getName() {
+         return name;
+     }
+
+     public String getEmail() {
+         return email;
+     }
+
+     public int getAge() {
+         return age;
+     }
+
+     public int age() {
+         return age;
     }
 
     public Student setAge(int age) {
